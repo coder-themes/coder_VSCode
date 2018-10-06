@@ -1,0 +1,24 @@
+{
+	"name": "potto-theme",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {},
+	"author": "Mehdi Hoseini",
+	"license": "ISC",
+	"publisher": "mehdi_hp",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "potto",
+				"uiTheme": "vs-dark",
+				"path": "./theme/potto.json"
+			}
+		]
+	}
+}
