@@ -1,5 +1,5 @@
 {
-	"name": "potto-theme",
+	"name": "coder-theme",
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {},
@@ -15,9 +15,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "potto",
+				"label": "coder_",
 				"uiTheme": "vs-dark",
-				"path": "./theme/potto.json"
+				"path": "./theme/coder_.json"
 			}
 		]
 	}
