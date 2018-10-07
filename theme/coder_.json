@@ -13,6 +13,8 @@
 		"editor.selectionHighlightBackground": "#413D49",
 		"editor.selectionHighlightBorder": "#605657",
 
+		"textLink.foreground": "#C7878E",
+
 		"focusBorder": "#334064",
 		"widget.shadow": "#000000a5",
 		"descriptionForeground": "#BFA440",
