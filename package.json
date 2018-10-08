@@ -1,7 +1,7 @@
 {
 	"name": "coder-theme",
 	"version": "1.0.0",
-	"description": "VS Code version of coder_ theme for better and cleaner coding experience",
+	"description": "VS Code version of _coder theme for better and cleaner coding experience",
 	"scripts": {},
 	"author": "Mehdi Hoseini",
 	"license": "ISC",
@@ -15,9 +15,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "coder_",
+				"label": "_coder",
 				"uiTheme": "vs-dark",
-				"path": "./theme/coder_.json"
+				"path": "./theme/_coder.json"
 			}
 		]
 	}
