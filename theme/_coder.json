@@ -80,7 +80,8 @@
 		"notifications.background": "#FAB55D",
 		"notifications.foreground": "#1E172B",
 		"notificationCenterHeader.background": "#EBAA57",
-		"notificationCenterHeader.foreground": "#FDE6C8",
+
+		"notificationCenterHeader.foreground": "#1E172B",
 
 		"panel.background": "#25202E",
 		"panel.border": "#4F4B56",
