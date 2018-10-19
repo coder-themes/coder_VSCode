@@ -1,0 +1,24 @@
+{
+	"name": "coder-theme",
+	"version": "1.0.0",
+	"description": "VS Code version of _coder theme for better and cleaner coding experience",
+	"scripts": {},
+	"author": "Mehdi Hoseini",
+	"license": "ISC",
+	"publisher": "mehdi_hp",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "_coder",
+				"uiTheme": "vs-dark",
+				"path": "./theme/_coder.json"
+			}
+		]
+	}
+}

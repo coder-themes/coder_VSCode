@@ -1,0 +1,277 @@
+// https://noeldelgado.github.io/shadowlord/#2C233E
+{
+	"name": "coder_",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2c233e",
+		"editor.foreground": "#FAF8FF",
+		"editor.lineHighlightBackground": "#2E273B",
+		"editorLineNumber.foreground": "#4C445B",
+		"editorLineNumber.activeForeground": "#A2A0A6",
+		"editorCursor.background": "#a5805a",
+		"editor.selectionBackground": "#695b57",
+		"editor.inactiveSelectionBackground": "#605657",
+		"editor.selectionHighlightBackground": "#413D49",
+		"editor.selectionHighlightBorder": "#605657",
+
+		"textLink.foreground": "#C7878E",
+
+		"focusBorder": "#334064",
+		"widget.shadow": "#000000a5",
+		"descriptionForeground": "#BFA440",
+		"errorForeground": "#A14436",
+
+		"sideBar.background": "#282038",
+		"sideBar.foreground": "#FAF8FF",
+		"sideBar.dropBackground": "#202260",
+		"sideBar.border": "#1A1425",
+		"sideBarTitle.foreground": "#E7ACB3",
+		"sideBarSectionHeader.background": "#524B61",
+		"sideBarSectionHeader.foreground": "#D1CFD5",
+
+		"editorWidget.background": "#413D49",
+		"editorWidget.border": "#CD944C",
+
+		"activityBar.background": "#1f192b",
+		"activityBar.foreground": "#96919f",
+		"activityBarBadge.background": "#BFB1FC",
+		"activityBarBadge.foreground": "#171221",
+		"activityBar.border": "#1A1425",
+
+		"button.background": "#C7878E",
+		"button.hoverBackground": "#AF6C73",
+		"button.foreground": "#01014C",
+
+		"editorGroupHeader.tabsBackground": "#282038",
+		"tab.activeBackground": "#4C445B",
+		"tab.activeForeground": "#FAB55D",
+		"tab.activeBorder": "#FAB55D",
+		"tab.inactiveBackground": "#282035",
+		"tab.inactiveForeground": "#D5D3D7",
+		"tab.unfocusedActiveForeground": "#B7B4BD",
+		"tab.unfocusedInactiveForeground": "#716C7A",
+		"tab.hoverBackground": "#3C3548",
+		"tab.border": "#50495B",
+
+		"titleBar.activeBackground": "#4C445B",
+		"titleBar.activeForeground": "#C7878E",
+
+		"statusBar.background": "#FAB55D",
+		"statusBar.foreground": "#1E172B",
+
+		"list.activeSelectionBackground": "#2E273B",
+		"list.focusBackground": "#FAB55D",
+		"list.focusForeground": "#1E172B",
+		"list.hoverBackground": "#423C4E",
+		"list.inactiveSelectionBackground": "#2E273B",
+		"list.highlightForeground": "#FAAE50",
+		"list.dropBackground": "#2E273B",
+
+		"input.background": "#2E273B",
+		"input.border": "#4c2b53",
+		"input.foreground": "#F5ECFF",
+
+		"settings.dropdownBackground": "#2E273B",
+		"settings.checkboxBackground": "#2E273B",
+		"settings.dropdownForeground": "#F5ECFF",
+		"settings.checkboxForeground": "#F5ECFF",
+		"settings.dropdownBorder": "#4c2b53",
+		"settings.checkboxBorder": "#4c2b53",
+		"settings.dropdownListBorder": "#4c2b53",
+
+		"notifications.background": "#FAB55D",
+		"notifications.foreground": "#1E172B",
+		"notificationCenterHeader.background": "#EBAA57",
+
+		"notificationCenterHeader.foreground": "#1E172B",
+
+		"panel.background": "#25202E",
+		"panel.border": "#4F4B56",
+		"panelTitle.activeBorder": "#FAB55D"
+	},
+	"tokenColors": [
+		{
+			"name": "Normal",
+			"scope": ["punctuation", "meta.delimiter.comma", "text.html"],
+			"settings": {
+				"foreground": "#E0F5E7"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": ["variable", "entity.name.class"],
+			"settings": {
+				"foreground": "#fff14e"
+			}
+		},
+		{
+			"name": "Prototype Chain",
+			"scope": ["variable.language.prototype"],
+			"settings": {
+				"foreground": "#edc224",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Property",
+			"scope": ["variable.other.property", "variable.other"],
+			"settings": {
+				"foreground": "#ffe894",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Builtin Class",
+			"scope": [
+				"support.class.builtin",
+				"keyword.operator",
+				"support.type.object.process"
+			],
+			"settings": {
+				"foreground": "#7fd2fa",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"storage",
+				"keyword.control",
+				"constant.language.boolean",
+				"constant.language.null",
+				"variable.language.this",
+				"support.type.object.console"
+			],
+			"settings": {
+				"foreground": "#7fd2fa",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": ["keyword.operator.comparison"],
+			"settings": {
+				"foreground": "#DDE0F4",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "ModulePath",
+			"scope": ["string.quoted.module.js"],
+			"settings": {
+				"foreground": "#ff86a2"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function.js",
+				"support.function.misc",
+				"meta.function.method"
+			],
+			"settings": {
+				"foreground": "#4ef892",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function Parameter",
+			"scope": ["meta.function.parameters"],
+			"settings": {
+				"foreground": "#f0b1f8",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Object Key",
+			"scope": [
+				"constant.other.object.key",
+				"variable.other.readwrite.shorthandpropertyname",
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#95fffa",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Object Value",
+			"scope": [
+				"support.constant.property-value",
+				"meta.property-value variable",
+				"meta.tag.block.any string"
+			],
+			"settings": {
+				"foreground": "#fff14e",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Object Method",
+			"scope": ["entity.name.function", "meta.function.json"],
+			"settings": {
+				"foreground": "#95fffa",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string.quoted.single",
+				"meta.structure.dictionary.value",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#ff6262",
+				"fontStyle": "normal"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"entity.name.tag",
+				"punctuation.definition.entity",
+				"entity.other.attribute-name.class",
+				"entity.name.tag.reference",
+				"meta.property-list variable"
+			],
+			"settings": {
+				"foreground": "#d9a7ff"
+			}
+		},
+		{
+			"name": "Tag Attribute",
+			"scope": ["entity.other.attribute-name"],
+			"settings": {
+				"foreground": "#95fffa"
+			}
+		},
+		{
+			"name": "Tag Attribute Value",
+			"scope": ["meta.tag.inline.any"],
+			"settings": {
+				"foreground": "#fff14e"
+			}
+		},
+		{
+			"name": "Constant Value",
+			"scope": [
+				"support.constant.color",
+				"keyword.other.unit",
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#fff14e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"foreground": "#887088"
+			}
+		}
+	]
+}
